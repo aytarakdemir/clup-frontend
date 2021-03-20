@@ -1,0 +1,149 @@
+@import 'variables.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: inherit;
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+}
+
+html {
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    /*padding-top: var(--header-height);*/
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong,
+label {
+    font-weight: 600;
+}
+
+.outside {
+    margin-left: 300px;
+}
+.topbar {
+    width:100%;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: lightblue;
+}
+.topbutton {
+    width:10%;
+    align-items: center;
+}
+
+#storeListForCustomer{
+    width: 50%;
+}
+#appointmentListForCustomer{
+    width: 50%;
+}
+
+
+.storeListItem{
+    margin-bottom: 20px;
+    padding: 15px 10px 10px 30px;
+    background-color: #f8f9fa;
+    border: 1px solid #c5ccd6;
+    font-weight: 300;
+}
+.storeListItem:hover{
+    margin-bottom: 20px;
+    padding: 15px 10px 10px 30px;
+    background-color: #f5f2f2;
+    border: 1px solid #c5ccd6;
+    font-weight: 300;
+}
+
+.appointmentListItem{
+    margin-bottom: 20px;
+    padding: 15px 10px 10px 30px;
+    background-color: #f8f9fa;
+    border: 1px solid #c5ccd6;
+    font-weight: 300;
+}
+.appointmentListItem:hover{
+    margin-bottom: 20px;
+    padding: 15px 10px 10px 30px;
+    background-color: #f5f2f2;
+    border: 1px solid #c5ccd6;
+    font-weight: 300;
+}
+
+
+.storeListItemLi{
+
+}
+
+#storeInformationForCustomer{
+
+
+    position: fixed;
+    height: 100%;
+    margin-bottom: 30px;
+    width: 30%;
+}
+
+
+
+
+.inside {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.insideHeaderWrapper {
+    background-color: #f8f9fa;
+    width: 100%;
+    padding: 30px 0 20px 30px;
+    border-bottom: 1px solid #c5ccd6;
+}
+
+.insideHeader{
+    font-family: inherit;
+    font-weight: 300;
+}
+
+.middleWrapper{
+    margin-top: 45px;
+}
